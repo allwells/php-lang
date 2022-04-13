@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", Cantarell;
+}
+
+body {
+  display: flex;
+  margin-top: 3rem;
+  place-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1,
+h3 {
+  color: #334;
+  margin-bottom: 1rem;
+}
+
+form {
+  width: 50%;
+}
+
+form input,
+form select {
+  width: 100%;
+  height: 3rem;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 0.4rem;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #7673;
+}
+
+form select {
+  background-color: #fff;
+}
+
+form select option {
+  height: 1.5rem;
+  background-color: #fff;
+}
+
+form .submit {
+  color: #fff;
+  font-weight: 600;
+  transition-duration: 0.4s;
+  background-color: #5b5f97;
+}
+
+form .submit:hover {
+  cursor: pointer;
+  background-color: #8585a0;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th,
+td,
+table {
+  color: #334;
+  text-align: left;
+  border: 2px solid #334;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+.error-heading,
+.error-message {
+  color: #800;
+}
+
+@media only screen and (max-width: 768px) {
+  form {
+    width: 90%;
+  }
+}
